@@ -13,7 +13,7 @@ class Person {
 }
 
 abstract class House {
-  public door: boolean;
+  public door: boolean = false;
   public key: Key;
   private tenants: Person[] = [];
   public comeIn(person: Person): void {
